@@ -336,3 +336,84 @@ nav {
         top: 100px;
         left: 150px;
     }
+
+
+   @media screen and (max-width: 750px) {
+      
+        #cards {
+          display: block;
+          padding: 20px;
+          align-items: center;
+          margin-left: 6.5em;
+        }
+
+        #cards2 {
+          display: block;
+          padding: 20px;
+          align-items: center;
+          margin-left: 6.5em;
+        }
+
+        #future {
+          width: 400px;
+          padding-top: 19em;
+        padding-left: 3.1em;
+        z-index: 1;
+        position: absolute;
+          
+      }
+
+        #graphic {
+          width: 500px;
+        }
+
+        #corner {
+          display: hidden;
+        }
+          
+        body {
+          background-size: 1000px;
+        }
+
+        #nikeair {
+          width: 500px;
+          height: 400px;
+        }
+
+        #spaceman {
+          display: none;
+        }
+
+        #squat {
+          width: 500px;
+          left: 65px;
+        }
+
+        #squatright {
+          width: 400px;
+          left: 200px;
+        }
+
+        #justdoit {
+          left: 125px;
+        }
+
+         #shoe1  {
+                height: 18em !important;
+                width: 30em !important;
+                
+              }
+          
+              #shoe2  {
+                height: 18em !important;
+                width: 30em !important;
+                
+              }
+
+          .cards {
+            padding: 10px;
+          }
+
+
+      }
+  
