@@ -139,19 +139,23 @@ button:hover {
     background: rgb(180, 33, 161);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     body {
       background-color: lightblue;
     }
     .container {
+        grid-template-columns: 100%;
+        grid-row-gap: 20px;
         grid-template-areas: "header"
                             "image1"
                             "image2"
                             "image3"
                             "image4"
-                            "sidebar"
                             "sizing"
+                            "sidebar"
+                            
                             "checkout"
+        
     }
 
   }
