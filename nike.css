@@ -416,4 +416,50 @@ nav {
 
 
       }
+
+   /* Portrait 6, 7, 8 */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+
+  body {
+    background-size: 600px;
+  }
+
+
+  #future {
+    width: 300px;
+    padding-top: 12.5em;
+  padding-left: 3.1em;
+  z-index: 1;
+  position: absolute;
+    
+}
+
+  #graphic {
+    width: 300px;
+  }
+
+  #corner {
+    display: hidden;
+  }
+
+
+#cards {
+  margin-left: 0px !important;
+  padding-left: 0px;
+  padding: 5px;
+}
+    
+#cards2 {
+  margin-left: 0px !important;
+  padding-left: 0px;
+  padding: 5px;
+}
+
+}
+
   
