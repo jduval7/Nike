@@ -8,7 +8,7 @@ body {
     height: 100vh;
     grid-template-columns: 2.5fr 2.5fr 2fr;
     grid-template-rows: 3fr 4fr 4fr 6fr;
-    grid-template-areas: "header header sidebar"
+    grid-template-areas: "header header header"
                          "div1 div1 sidebar"
                          "div2 div2 sidebar"
                          "div3 div3 div3"
@@ -24,7 +24,9 @@ div#header {
 }
 
 div#div1 {
-    background: green;
+    color: rgb(196, 154, 236);
+    font-family: 'Roboto Condensed', sans-serif;
+    background: rgb(21, 21, 21);
     margin-top: none;
     margin-bottom: 1em;
     grid-area: div1;
@@ -32,20 +34,27 @@ div#div1 {
 
 div#sidebar {
     margin-left: 1em;
-    background: cyan;
     margin-top: none;
     grid-area: sidebar;
+    color: rgb(196, 154, 236);
+    font-family: 'Roboto Condensed', sans-serif;
+    background: rgb(21, 21, 21);
 }
 
 div#div2 {
-    background: blue;
+    color: rgb(196, 154, 236);
+    font-family: 'Roboto Condensed', sans-serif;
+    background: rgb(21, 21, 21);
     margin-top: none;
     grid-area: div2;
+    position: relative;
 }
 
 div#div3 {
     margin-top: 2em;
-    background: purple;
+    color: rgb(196, 154, 236);
+    font-family: 'Roboto Condensed', sans-serif;
+    background: rgb(21, 21, 21);
     margin-top: none;
     
     grid-area: div3;
@@ -53,4 +62,91 @@ div#div3 {
 
 #jordan{
     max-width: 150px;
+    position: relative;
+}
+
+
+body {
+    background: url('images/background.jpg');
+    background-size: cover;
+}
+
+#div1 h3 {
+    color: rgb(139, 34, 143);
+    text-align: center;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+#div1 p {
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    margin: 15px;
+}
+
+#sidebar h3 {
+    color: rgb(139, 34, 143);
+    text-align: center;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 3em;
+}
+
+#sidebar p {
+    text-align: left;
+    padding: 5px;
+    margin-top: 5px;
+    margin: 15px;
+}
+
+#sidebar h4 {
+    text-align: left;
+    padding: 5px;
+    margin-top: 5px;
+    margin: 15px;
+}
+
+#div2 h4 {
+    text-align: right;
+    position: absolute;
+    left: 10em;
+    top: 1em;
+}
+
+#text {
+    text-align: right;
+    position: absolute;
+    left: 15em;
+    top: 5em;
+}
+
+#text2 {
+    text-align: right;
+    position: absolute;
+    left: 15em;
+    top: 7em;
+}
+
+#text3 {
+    text-align: right;
+    position: absolute;
+    left: 15em;
+    top: 9em;
+}
+
+#div3 h3 {
+    padding: .5em;
+}
+
+#div3 p {
+    padding: 1em;
+}
+
+#div3 h4 {
+    padding: .5em;
+}
+
+#div3 h5 {
+    padding: .5em;
 }
