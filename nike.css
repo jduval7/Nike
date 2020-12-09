@@ -1,5 +1,5 @@
 body {
-    background: url("../images/background.jpg");
+    background: url('../images/background.jpg');
     background-size: cover;
    
 }
@@ -338,7 +338,9 @@ nav {
     }
 
 
-   @media screen and (max-width: 750px) {
+
+
+    @media screen and (max-width: 750px) {
       
         #cards {
           display: block;
@@ -372,7 +374,7 @@ nav {
         }
           
         body {
-          background-size: 1000px;
+          background-size: 600px;
         }
 
         #nikeair {
@@ -416,8 +418,9 @@ nav {
 
 
       }
+  
 
-   /* Portrait 6, 7, 8 */
+    /* Portrait 6, 7, 8 */
 @media only screen 
 and (min-device-width: 375px) 
 and (max-device-width: 667px) 
@@ -461,5 +464,3 @@ and (orientation: portrait) {
 }
 
 }
-
-  
