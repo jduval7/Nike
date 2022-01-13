@@ -1,7 +1,7 @@
 # Nike
 
 This project was a redesign of a Nike e-commerce page.  The purpose of this project was to create mockups in AdobeXD and translate those pages into 
-code with HTML/CSS.  All of the images and designs were created by me as well to give a unified feel to the project.
+code with HTML/CSS.  All of the images and designs were created by me as well to give a unified feel to the project. I also created the animation intro using Adobe Animate.
 
 [NIKE - Live Link](https://jduval7.github.io/Nike/)
 
